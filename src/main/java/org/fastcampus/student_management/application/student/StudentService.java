@@ -24,13 +24,9 @@ public class StudentService {
 
   public void activateStudent(String name) {
     // TODO: 과제 구현 부분
-    Student student = getStudent(name);
-    student.activate();
   }
 
   public void deactivateStudent(String name) {
     // TODO: 과제 구현 부분
-    Student student = getStudent(name);
-    student.deactivate();
   }
 }
